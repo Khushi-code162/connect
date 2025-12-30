@@ -15,7 +15,7 @@ const Navbar = () => {
       
       <h1 style={{cursor:"pointer"}} onClick={() => {
         router.push("/")
-      }}>Networq</h1>
+      }}>ProConnect</h1>
 
 
       

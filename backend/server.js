@@ -19,7 +19,7 @@ app.use(express.static("uploads"))
 
 const start = async () => {
     const connectDB = await mongoose.connect(process.env.MONGO_URI);
-    console.log("✅ MongoDB connected successfully");
+    console.log("MongoDB connected successfully");
     const PORT = process.env.PORT || 9090;
 
 app.listen(PORT, () => {
